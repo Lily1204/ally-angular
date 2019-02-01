@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { FooterModule } from './components/footer/footer.module';
-import { NavbarModule } from './components/navbar/navbar.module';
+import { CountUpModule } from 'countup.js-angular2';
+// import { FooterModule } from './components/footer/footer.module';
+// import { NavbarModule } from './components/navbar/navbar.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +14,7 @@ import { NavbarModule } from './components/navbar/navbar.module';
   imports: [
     BrowserModule,
     FlexLayoutModule,
-    FooterModule,
-    NavbarModule
+    CountUpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
