@@ -1,0 +1,112 @@
+footer {
+      margin: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0px;
+
+      .container {
+          margin: 0px;
+          box-shadow: 0 20px 30px 10px black;
+          background-image: linear-gradient(rgba(8, 208, 235, 0.5),
+              rgba(216, 26, 200, 0.5)), url(../../../assets/images/images-section7.jpg);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          opacity: 0.7;
+
+          .contact {
+              margin-top: 30px;
+              padding: 60px;
+              padding-bottom: 10px;
+
+              h2 {
+                  color: white;
+              }
+
+              .contact-title {
+                  max-width: 900px;
+
+                  .line-contact {
+                      border-top: 1.5px solid white;
+                      margin: 0px;
+                      flex-grow: 5;
+                      max-width: 70px;
+                  }
+
+                  .icons {
+                      padding: 0 30px;
+                  }
+
+                  .info {
+                      margin-top: 30px;
+                      padding: 60px;
+                  }
+              }
+          }
+
+          .icon-description {
+              padding: 0 60px;
+              max-width: 500px;
+
+          }
+
+          .form {
+
+              h1 {
+                  color: white;
+                  font-size: 2em;
+              }
+
+              .title {
+                  margin-top: 50px;
+                  padding: 30px;
+                  margin-right: 40px;
+
+              }
+
+              .imputs {
+                  .input {
+                      margin: 10px;
+                      height: 40px;
+                      width: 350px;
+                      background: rgba(255, 255, 255, 0.5);
+                      border: 1px solid white;
+                  }
+
+                  .input-description {
+                      margin: 10px;
+                      height: 100px;
+                      width: 350px;
+                      background: rgba(255, 255, 255, 0.5);
+                      border: 1px solid white
+                  }
+              }
+          }
+      }
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+
+}
+
+.icon {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+.lt-media{
+  .info {
+    margin-top: 50px;
+   
+}
+}

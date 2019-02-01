@@ -1,20 +1,333 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+
+<navbar></navbar>
+
+
+<section class="sections" fxLayout="column">
+
+  <section class="section-meet" fxLayout="row" fxLayoutAlign="center center" fxFlex="100%" id="section-2">
+    <div fxFlex.gt-xs="83%" fxFlex.xs="100%">
+      <div class="container " fxLayoutAlign="center" fxLayout="row">
+        <div class="content " fxLayout="column" fxLayoutAlign="center center" fxFlex.gt-xs="66%" fxFlex.xs="100%">
+          <h1 class="title">Meet Ally</h1>
+          <div class="wrapper" fxLayout="row" fxLayoutAlign="center center">
+            <div class="line"></div>
+            <p class="subtitle">LOREM IPSUM DOLOR</p>
+            <div class="line"></div>
+          </div>
+          <p class="description" fxLayoutAlign="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Adipisci, maxime? Blanditiis ex nam Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="button1" fxLayoutAlign="center center">Button</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-card"  fxLayout="row" fxLayoutAlign="center center" fxFlex="100%">
+    <div fxFlex.gt-xs="83%" fxFlex.xs="100%">
+        <div class="container" fxLayout="row" fxLayoutAlign="center center" fxFlex.gt-xs="100%" fxFlex.xs="100%" fxLayoutAlign="center center">
+            <div class=" card " fxLayout="row wrap" fxLayoutAlign="center center">
+              <div class="content" fxLayout="column" fxLayoutAlign="center center" >
+                <div class="imageIcon " fxLayoutAlign="center center" >
+                  <span class="icon"><i class="far fa-check-square"></i></span>
+                </div>
+                <div class="description"fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p >Lorem ipsum dolor sit amet consectetur </p>
+                </div>
+              </div>
+              <div class="content"fxLayout="column" fxLayoutAlign="center center"  >
+                <div class="imageIcon" fxLayoutAlign="center center">
+                  <span class="icon"><i class="fas fa-arrows-alt-v"></i></span>
+                </div>
+                <div class="description" fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <div class="content"  fxLayout="column" fxLayoutAlign="center center">
+                <div class="imageIcon " fxLayoutAlign="center center">
+                  <span class="icon"><i class="far fa-star"></i></span>
+                </div>
+                <div class="description" fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur </p>
+                </div>
+              </div>
+              <div class="content"  fxLayout="column" fxLayoutAlign="center center">
+                <div class="imageIcon"  fxLayoutAlign="center center">
+                  <span class="icon"><i class="far fa-file-alt"></i></span>
+                </div>
+                <div class="description" fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="imageIcon" fxLayoutAlign="center center">
+                  <span class="icon"><i class="fas fa-mouse-pointer"></i></span>
+                </div>
+                <div class="description" fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="imageIcon" fxLayoutAlign="center center">
+                  <span class="icon"> <i class="fas fa-camera"></i></span>
+                </div>
+                <div class="description" fxLayout="column" fxLayoutAlign="center center">
+                  <h4>LOREM IPSUM</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <section class="section-wrors" fxLayout="row" fxLayoutAlign="center center" fxFlex="100%">
+    <div fxFlex.gt-xs="83%" fxFlex.xs="100%">
+      <div class="container" fxLayout="row" fxLayout.lt-md="column" fxFlex="100%" fxLayoutAlign="center center">
+         
+       
+        <div class="content-imagen"  fxLayoutAlign="center center"  fxFlex="100%" >
+          <div class="imagen" fxLayoutAlign="center center" fxFlex="100%">
+
+            
+          </div>
+        </div>
+
+        <div class="infos" fxLayoutAlign="center center"  fxLayout.lt-md="100%" fxFlex="50%">
+          <div class="info-container"  fxLayout="column" fxLayoutAlign="center start" fxFlex="80%">
+            <h2>A FEW WORDS</h2>
+            <div class="line2"></div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellat tenetur nulla, enim quas id illum minima molestias
+              impedit est dicta </p>
+            <br>
+            <button class="button1" fxLayoutAlign="center center">Button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-counter" fxLayout="row" fxLayoutAlign="center center" fxFlex="100%">
+    <div  fxFlex.gt-xs="83%" fxFlex.xs="100%">
+        <div class="container"  fxLayout="row wrap" fxLayoutAlign="center center" fxFlex.gt-xs="100%" fxFlex.xs="100%">
+          <div class=" card " fxLayout="row" fxLayoutAlign="center center">
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="counter" id="counter-13">13</div>
+                <div class="line2"></div>
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+            <div class=" card" fxLayout="row" fxLayoutAlign="center center">
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="counter" id="counter-540">540</div>
+                <div class="line2"></div>
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+            <div class=" card" fxLayout="row" fxLayoutAlign="center center">
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="counter" id="counter-29">29</div>
+                <div class="line2"></div>
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+            <div class="card" fxLayout="row" fxLayoutAlign="center center">
+              <div class="content" fxLayout="column" fxLayoutAlign="center center">
+                <div class="counter" id="counter-100">100%</div>
+                <div class="line2"></div>
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <section class="section-services" fxLayout="row" fxLayoutAlign="center center" fxFlex="100%">
+    <div  fxFlex.gt-xs="83%" fxFlex.xs="100%">
+        <div class="container" fxLayout="column" fxLayoutAlign="center center" fxFlex.gt-xs="100%" fxFlex.xs="100%">
+          
+            <div class="content" fxLayout="column" fxLayoutAlign="center center">
+              <div class="wrapper center-xs">
+                <div class="line"></div>
+                <h1 class="title">Services</h1>
+                <div class="line"></div>
+              </div>
+            </div>
+      
+            <div class="cards"  fxLayout="row wrap" fxLayoutAlign="center center" fxFlex="100%">
+              <div class=" card" fxLayout="column" fxLayoutAlign="center center">
+                <div class="content1 " fxLayout="column" fxLayoutAlign="center center">
+                  <div class="image" fxLayout="row" fxLayoutAlign="center center">
+                    <span class="icon"> <i class="fas fa-camera"></i></span>
+                  </div>
+                  <div class="description"fxLayout="column" fxLayoutAlign="center center">
+                    <h4>PHOTOGRAPHY</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                      Lorem ipsum dolor sit amet consectetur,
+                      adipisicing elit. Libero exercitationem</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card" fxLayout="column" fxLayoutAlign="center center">
+                <div class="content2" fxLayout="column" fxLayoutAlign="center center">
+                  <div class="image" fxLayout="row" fxLayoutAlign="center center">
+                    <span class="icon"><i class="fas fa-broom"></i></span>
+                  </div>
+                  <div class="description"fxLayout="column"  fxLayoutAlign="center center">
+                    <h4>DESING</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                      Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Libero exercitationem</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" card " fxLayout="column" fxLayoutAlign="center center">
+                <div class="content3" fxLayout="column" fxLayoutAlign="center center">
+                  <div class="image" fxLayout="row" fxLayoutAlign="center center">
+                    <span class="icon"><i class="fab fa-discourse"></i></span>
+                  </div>
+                  <div class="description" fxLayout="column"  fxLayoutAlign="center center">
+                    <h4>PLANNING</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                      Lorem ipsum dolor sit amet consectetur,
+                      adipisicing elit. Libero exercitationem</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <section class="section-features" fxLayout="row" fxLayoutAlign="center center" fxFlex="100%">
+    <div fxFlex.gt-xs="83%" fxFlex.xs="100%">
+
+      <div class="container" fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutAlign="center center">
+        <div class="content" fxLayout="column" fxFlex="100%" fxLayoutAlign="center center">
+          <div class="wrapper" fxLayoutAlign="center center">
+            <div class="line"></div>
+            <h1 class="title"> Features </h1>
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div fxLayout="row" fxLayoutAlign="center center" fxLayout="row" fxLayout.lt-md="column" fxFlex="100%">
+          <div fxLayout="column" fxFlex="33%" fxLayoutAlign="center center">
+
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+
+              <div fxShow fxHide.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle1" ngclass.lt-md="lt-smoll">LOREM IPSUM</h4>
+                <p class="description1">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+              <div fxHide fxShow.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+            </div>
+
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+
+              <div fxShow fxHide.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle1">LOREM IPSUM</h4>
+                <p class="description1" fxFlexAlign="end">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+              <div fxHide fxShow.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+            </div>
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+
+              <div fxShow fxHide.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle1">LOREM IPSUM</h4>
+                <p class="description1" fxFlexAlign="end">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+              <div fxHide fxShow.gt-sm class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class=" center-xs" fxLayout="column" fxFlex="33%" fxLayoutAlign="center center">
+            <div class="phone" fxLayout="row" fxFlex="100%" fxLayoutAlign="center center" >
+               <div class="phone-imagen" fxLayout="column" fxFlex="75%" fxLayoutAlign="center center">
+                <div class="imagen-logo " fxLayout="column" fxFlex="70%" >
+                  <div class="logo" >
+                    <h1 class="title">Ally</h1>
+                    <p class="subtitle">HAS IT ALL</p>
+                  </div>
+                  <div fxLayout="row" fxFlex="100%" fxLayoutAlign="center end">
+                    <span class="icon" onclick="displacement()">
+                      <i class="fas fa-angle-down"></i>
+                    </span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div fxLayout="column" fxFlex="33%" fxLayoutAlign="center center">
+
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+              <div class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle2">LOREM IPSUM</h4>
+                <p class="description2" fxFlexAlign="end">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+            </div>
+
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+              <div class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle2">LOREM IPSUM</h4>
+                <p class="description2" fxFlexAlign="end">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+            </div>
+            <div class="items" fxFlex="100%" fxLayout="row" fxLayoutAlign="center center">
+              <div class="imageRadius" fxLayout="row" fxLayoutAlign="center center">
+                <span class="icon"><i class="far fa-file-alt"></i></span>
+              </div>
+              <div class="text" fxLayout="column">
+                <h4 class="subtitle2">LOREM IPSUM</h4>
+                <p class="description2" fxFlexAlign="end">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-footer></app-footer>
+</section>
